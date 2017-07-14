@@ -1,7 +1,9 @@
-// var name = require('./name');
-//
-// console.log('Hello my name is ' + name.name);
-//
+import style from './style.css';
+
+var name = require('./name');
+
+console.log('Hello my name is ' + name.name);
+
 // var canvas = document.querySelector('canvas');
 // var c = canvas.getContext('2d');
 //
