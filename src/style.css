@@ -1,4 +1,12 @@
-body {
+/*body {
   background: blue;
   color: green;
+}*/
+
+.hello {
+  color: blue;
+}
+
+.age {
+  color: red;
 }

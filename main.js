@@ -78,7 +78,10 @@ var name = __webpack_require__(6);
 console.log('Hello my name is ' + name.name);
 
 var hello = document.getElementsByClassName('hello');
-hello[0].innerText = 'hey my name is ' + name.name;
+hello[0].innerText = 'Hey my name is ' + name.name;
+
+var age = document.getElementsByClassName('age');
+age[0].innerText = 'I am ' + name.age + ' years old';
 
 
 /***/ }),
@@ -121,7 +124,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "body {\n  background: blue;\n  color: green;\n}\n", ""]);
+exports.push([module.i, "/*body {\n  background: blue;\n  color: green;\n}*/\n\n.hello {\n  color: blue;\n}\n\n.age {\n  color: red;\n}\n", ""]);
 
 // exports
 
@@ -667,6 +670,8 @@ module.exports = function (css) {
 /***/ (function(module, exports) {
 
 exports.name = "Derrick";
+
+exports.age = 35;
 
 
 /***/ })
